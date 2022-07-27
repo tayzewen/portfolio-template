@@ -20,7 +20,7 @@ img.head {
 nav.navbar a:link {
     display: inline;
     padding: 0em 5em;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
     font-size: 2vw;
     color: black;
     text-decoration: none;
@@ -53,7 +53,7 @@ nav.navbar a:visited {
 
 .about, .contact {
     color: white;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0.6);
     margin: 10% 12%;
     padding: 25px 50px;
