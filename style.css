@@ -43,7 +43,7 @@ nav.navbar a:visited {
 
 .content {
     color: white;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, "DIN 1451";
     background-color: rgba(0, 0, 0, 0.6);
     margin: 8% 12% 0% 12%;
     padding: 5% 2%;
