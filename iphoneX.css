@@ -1,58 +1,4 @@
-@media only screen and (max-width: 540px) {
-
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    display: none;
-  }
-  
-  .image2 {
-    display: flex;
-    min-width: 100%;
-    height: auto;
-    padding-top: 3em;
-    padding-bottom: 3em;
-  }
-
-
-  .navbar {
-    display: block;
-    text-align: center;
-    padding-bottom: 1em;
-  }
-
-  .navbar a {
-    font-size: 3em;
-  }
-
-  .content {
-    width: 100%;
-    height: auto;
-    margin: 10% 5%;
-    padding: 1% 10%;
-  }
-
-  .title {
-    font-size: 36vw;
-  }
-
-
-  .text {
-      font-size: 24vw;
-  }
-
-  #contact img {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    height: 18em;
-  }
-  
-    .gallery {
+  .gallery {
     display: block;
   }
 
@@ -61,5 +7,3 @@
     height: auto;
     padding: 3em 0em;
   }
-
-}
