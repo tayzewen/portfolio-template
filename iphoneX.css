@@ -51,5 +51,15 @@
     padding: 0;
     height: 18em;
   }
+  
+    .gallery {
+    display: block;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    padding: 3em 0em;
+  }
 
 }
