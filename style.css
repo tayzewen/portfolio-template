@@ -23,6 +23,10 @@ body {
     margin: 0px 0px;
 }
 
+.image2 {
+    display: none;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
