@@ -22,9 +22,10 @@
 
   .navbar {
     display: block;
+    flex-wrap: wrap;
     text-align: center;
-    padding-bottom: 1em;
-    font-size: 12vw;
+    padding: 0em 0em 1em 0em;
+    font-size: 3em;
   }
 
   .content {
@@ -35,12 +36,12 @@
   }
 
   .title {
-    font-size: 15vw;
+    font-size: 13vw;
   }
 
 
   .text {
-      font-size: 10vw;
+      font-size: 8vw;
   }
 
   #contact img {
