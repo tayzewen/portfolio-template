@@ -1,5 +1,5 @@
 body {
-    background-image: url(background_leaves.jpeg);
+    background-image: url(waves_background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -7,77 +7,95 @@ body {
     margin: 0px;
 }
 
-
-img.head {
-    width: 60%; height: 50%; max-height: 250px; padding-bottom: 1%;
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto 1fr 1fr;
 }
 
-#logo {
-    background-color: white;
+.header {
+    background-color: rgba(255, 255, 255, .6);
+    border-bottom: 5px solid #000000
+}
+
+.logo {
     width: 100%;
-    margin-top: 5%;
+    margin: 0px 0px;
 }
 
-nav.navbar a:link {
-    display: inline;
-    padding: 0em 5em;
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 250px 5px 250px;
     font-family: Bahnschrift, Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-size: 24px;
+}
+
+nav a:link {
     color: black;
     text-decoration: none;
 }
 
-nav.navbar a:hover {
-    font-style: oblique;
+nav a:hover {
+    color: black;
     font-weight: bold;
+    font-style: oblique;
 }
 
-nav.navbar a:visited {
-    text-decoration: none;
+nav a:visited {
     color: black;
-}
-
-#title {
-    font-size: 4vw;   
-    
+    text-decoration: none;
 }
 
 .content {
+    background-color: rgba(3, 27, 28, 0.8);
     color: white;
+    border-radius: 40px / 35px;
+    margin: 5% 10%;
+    padding: 5% 10%;
     font-family: Bahnschrift, Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 8% 12% 0% 12%;
-    padding: 5% 2%;
-    text-align: center;
-    min-height: 50%;
 }
 
-.about, .contact {
-    color: white;
-    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin: 10% 12%;
-    padding: 25px 50px;
-    text-align: center;
-    min-height: 50%;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
 }
 
-#main {
-    font-size: 2vw;
+.pages img {
+    width: 480px;
+    height: 223px;
+}
+
+.gallery a:hover img {
+    opacity: .6;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+#contact img {
+    height: 100px;
+    width: auto;
+    margin: 0px;
+}
+
+.contactlinks {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: .5fr .5fr;
 }
 
 #headshot {
     width: 30%;
     border-radius: 100%;
     padding-left: 15px;
-}
-
-#aboutme {
-    font-size: 2vw;
-    text-align: left;
-}
-
-#contact {
-    font-size: 2vw;
-    padding-top: 25px;
 }
