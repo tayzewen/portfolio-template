@@ -23,9 +23,8 @@
   .navbar {
     display: block;
     text-align: center;
-    padding: 0em;
     padding-bottom: 1em;
-    font-size: 10vw;
+    font-size: 12vw;
   }
 
   .content {
@@ -36,12 +35,16 @@
   }
 
   .title {
-    font-size: 10vw;
+    font-size: 15vw;
   }
 
 
   .text {
-      font-size: 6vw;
+      font-size: 10vw;
+  }
+
+  #contact img {
+    padding: 0;
   }
 
 }
