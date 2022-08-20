@@ -1,112 +1,67 @@
 body {
-    background-image: url(waves_background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url(assets/images/waves_background_resize.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    margin: 0px;
-    position: absolute;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-}
-
-.header {
-    background-color: rgba(255, 255, 255, .6);
-    border-bottom: 5px solid #000000
+    opacity: 100%;
 }
 
 .logo {
-    width: 100%;
-    margin: 0px 0px;
-}
-
-.image2 {
-    display: none;
-}
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    padding: 0px 10em .5em;
-    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
-    font-size: 2em;
-}
-
-.navbar a {
-    display: flex;
-    padding: 0em 3em 0em;
-}
-
-nav a:link {
-    color: black;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: black;
-    font-weight: bold;
-    font-style: oblique;
-}
-
-nav a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-.content {
-    background-color: rgba(3, 27, 28, 0.8);
-    color: white;
-    border-radius: 40px / 35px;
-    margin: 5% 10%;
-    padding: 5% 10%;
-    font-family: Bahnschrift, Arial, Helvetica, sans-serif;
-}
-
-.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    margin: 10px;
+    align-items: center;
 }
 
-.pages img {
-    width: 480px;
-    height: 223px;
+.stack {
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-.gallery a:hover img {
-    opacity: .6;
+.logo h1 {
+    font-size: 800%;
 }
 
-.title {
-    font-size: 3.5em;
+.logo h2 {
+    font-size: 200%;
 }
 
-.text {
-    font-size: 2em;
+.text-center p {
+    margin-top: 1%;
+    margin-bottom: 0%;
 }
 
-#contact img {
-    height: 8em;
-    width: auto;
-    margin: 0px;
-    padding: 1rem;
+.logo img {
+    width: 300px;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
-.contactlinks {
+.fa {
+    margin: 15px;
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 5vh;
+}
+
+.card-block h2 {
+    font-size: 32px;
+}
+
+.social-buttons a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px; 
-}
-
-#headshot {
-    width: 30%;
-    border-radius: 100%;
-    padding-left: 15px;
+    align-items: center;
 }
