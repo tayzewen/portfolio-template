@@ -62,6 +62,10 @@ a:link, a:hover, a:visited {
 .social-buttons a {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    margin: 0px 25px;
 }
