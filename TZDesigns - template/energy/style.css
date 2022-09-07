@@ -1,0 +1,71 @@
+body {
+    background: url(assets/images/waves_background_resize.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack {
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logo h1 {
+    font-size: 800%;
+}
+
+.logo h2 {
+    font-size: 200%;
+}
+
+.text-center p {
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.logo img {
+    width: 300px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.fa {
+    margin: 15px;
+    font-size: 32px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 5vh;
+}
+
+.card-block h2 {
+    font-size: 32px;
+}
+
+.social-buttons a {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    margin: 0px 25px;
+}
